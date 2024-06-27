@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow:auto;
+}
+
+h1,h2,h3 {
+    font-size:large
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+section#home,section#about, section#projects, section#contact {
+    background: #f4f4f4;
+}
+
+
+.project1,.project2 {
+    background: #e4e4e4;
+    margin: 1rem 18rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+ #contact div{ 
+    display:flex;
+    justify-content:center;
+    margin:0;
+    
+}
+
+#contact p{ 
+    padding :0 1rem;
+}
+
+.project1{
+    height:200px;
+    width:50%;
+    text-align:left;
+    display:flex;
+    justify-content:space-around;
+    
+}
+
+.project2{
+    height:200px;
+    width:50%;
+    text-align:left;
+    display:flex;
+    justify-content:space-around;
+    
+}
+
+.project1 img{
+    padding:10px 0;
+    height:180px;
+    width:220px;
+}
+
+.project2 img{
+    padding:10px 0;
+    height:180px;
+    width:220px;
+}
+
+.sk{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+
+}
+
+.skill{
+display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:20px;
+
+}
+
+.p1{
+    height:15px;
+    width:200px;
+    border-radius:50px;
+    background-color:white;
+    border:2px solid black;
+}
+
+.p1 .a1{
+    height:15px;
+    width:150px;
+    border-radius:50px;
+    background-color:pink;
+}
+
+
+.p2{
+    height:15px;
+    width:200px;
+    border-radius:50px;
+    background-color:white;
+    border:2px solid black;
+}
+
+.p2 .a2{
+    height:15px;
+    width:80px;
+    border-radius:50px;
+    background-color:green;
+}
